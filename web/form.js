@@ -22,6 +22,7 @@ form.addEventListener('submit',async (event)=>{
     text: transcription.data.result
   })
 
+  console.log(summary.data.result)
   content.classList.remove('placeholder')
   content.textContent = summary.data.result
 
